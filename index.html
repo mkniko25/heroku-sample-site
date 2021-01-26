@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" >
+  </head>
+
+  <body>
+
+    <!-- メニュー -->
+    <header class="site-width">
+      <h1><a href="index.html">BENKYOKAI</a></h1>
+      <nav id="top-nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#merit">MERIT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- メイン -->
+    <div id="main">
+      <img src="img/top-baner.png" id="top-baner">
+
+      <section id="about" class="site-width">
+        <h1 class="title">ABOUT</h1>
+        <p>WEBアプリケーションの開発から実行、運用までのすべてをクラウドで完結できるクラウドサービス。</p>
+        <p>クラウドサービスは大きくSaaS、PaaS、IaaSの3種類に分けられ、Herokuはこのうち、PaaS（Platform as a Service）に分類されます。</p>
+        <p>本来だったら自分でサーバやOS、DBなどを準備しなければならないが、Herokuにはそれらが全て揃っているので、手軽にアプリを公開することができます。</p>
+      </section>
+
+      <section id="merit" class="site-width">
+        <h1 class="title">MERIT</h1>
+        <section class="panel">
+          <h2>デプロイが簡単</h2>
+          <p>
+            デプロイは基本的にgit push heroku masterでHerokuにpushするだけです。デプロイ作業に時間がかかって大変！ということはありません。
+          </p>
+        </section>
+        <section class="panel">
+          <h2>多様な言語・FWをサポートしている</h2>
+          <p>
+            現在では国内で扱われている主要言語とFW（以下）をほぼカバーしています。
+            <ul>
+              <li>Ruby(Rails)</li>
+              <li>PHP</li>
+              <li>Java</li>
+              <li>Node.js</li>
+              <li>Python</li>
+              <li>Go</li>
+            </ul>
+          </p>
+        </section>
+        <section class="panel">
+          <h2>Gitコマンドで操作できる</h2>
+          <p>
+            Herokuではアプリケーションをデプロイするには、Gitコマンドで可能です。
+            Herokuをリモートリポジトリとしてgit pushするだけで手軽にアプリケーションを公開することができます。
+          </p>
+        </section>
+      </section>
+
+    </div>
+
+    <footer>
+      Copyright Niko All Rigth Reserved.
+    </footer>
+
+  </body>
+</html>
